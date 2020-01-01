@@ -1,0 +1,39 @@
+body {
+  background-color: teal;
+  margin: 0;
+  padding:0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#title {
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 100px;
+}
+.container {
+  background-image: url(https://media.gettyimages.com/photos/newspaper-background-picture-id918020464);
+  position: relative;
+  width: 1200px;
+  height: 400px;  
+  margin: 10px;
+    text-align: center;
+}
+
+.container .box {
+  background-color: black;
+  position: relative;
+  width: 400px;
+  height: 200px;
+  margin: 100px auto;
+  text-align: center;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+#scrape {
+  color: red;
+  margin: 70px auto;
+  font-size: 45px;
+}
+
